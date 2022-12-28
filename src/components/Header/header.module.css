@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 20px;
+  background-color: #14233c;
+  top: 0;
+  z-index: 999;
+  position: sticky;
+}
+
+h3 {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.4s ease;
+  padding-left: 30px;
+}
+
+h3:hover {
+  color: orange;
+}

@@ -1,0 +1,28 @@
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navbar ul li a.active {
+  color: yellowgreen;
+  text-decoration: underline;
+}

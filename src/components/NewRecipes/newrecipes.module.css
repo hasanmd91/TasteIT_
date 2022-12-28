@@ -1,0 +1,51 @@
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container form div input,
+.form_container form div textarea,
+.form_container form div select {
+  display: block;
+  display: block;
+  width: 350px;
+  height: 30px;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.form_container form div label {
+  display: block;
+  display: block;
+  width: 350px;
+  height: 30px;
+  margin: 0.5rem 0 0.3rem 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.form_container form div textarea {
+  height: 120px;
+  overflow: scroll;
+}
+
+.form_container form div textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.add_button,
+.submit_button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: orange;
+  font-size: 14px;
+  background-color: #14233c;
+  border-radius: 5px;
+}
+
+.ingredient_Wrapper {
+  display: flex;
+  gap: 10px;
+}
