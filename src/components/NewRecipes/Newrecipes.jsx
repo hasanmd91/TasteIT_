@@ -4,8 +4,10 @@ import style from "./newrecipes.module.css";
 
 import { db } from "../../database/Firebase_config";
 import { collection, addDoc } from "firebase/firestore";
+import Overlay from "../Overlay/Overlay";
 
 const Newrecipes = () => {
+  const [overlay, setOverlay] = useState(false);
   const [countries, setCountries] = useState([]);
   const [ingredientList, setIngredientList] = useState([
     {
@@ -72,6 +74,7 @@ const Newrecipes = () => {
 
   const submitHandeler = (e) => {
     e.preventDefault();
+    setOverlay(true);
     createRecpie(recipe);
     e.target.reset();
   };
@@ -189,6 +192,7 @@ const Newrecipes = () => {
           Post recipe
         </button>
       </form>
+      {overlay && <Overlay {...recipe} />}
     </div>
   );
 };
