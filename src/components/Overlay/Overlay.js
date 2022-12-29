@@ -24,7 +24,7 @@ const Overlay = ({
       <div className={style.container}>
         <div>
           {" "}
-          <h3> {name}</h3>
+          <h4> {name}</h4>
         </div>
         <div className={style.wrapper}>
           <div className={style.img_wrapper}>
