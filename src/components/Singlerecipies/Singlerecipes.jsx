@@ -16,7 +16,7 @@ const Singlerecipes = () => {
       const data = await getDocs(recpieCollectionRef);
       const results = data.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
       const singleRecipe = results.filter(
-        (res) => res.name === params.recipesingle
+        (res) => res.id === params.recipesingle
       );
       setRecipes(singleRecipe);
     };
@@ -45,11 +45,13 @@ const Singlerecipes = () => {
               <div>
                 <table>
                   <thead>
-                    <th>Ingredient</th>
-                    <th>Qunatity</th>
+                    <tr>
+                      <th>Ingredient</th>
+                      <th>Qunatity</th>
+                    </tr>
                   </thead>
-                  {recipe.ingredients.map((ele) => (
-                    <tbody>
+                  {recipe.ingredients.map((ele, index) => (
+                    <tbody key={index}>
                       <tr>
                         <td>{ele.ingredient}</td>
                         <td>{ele.quantity}</td>

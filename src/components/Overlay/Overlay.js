@@ -24,7 +24,7 @@ const Overlay = ({
       <div className={style.container}>
         <div>
           {" "}
-          <h1> {name}</h1>
+          <h3> {name}</h3>
         </div>
         <div className={style.wrapper}>
           <div className={style.img_wrapper}>
@@ -43,14 +43,14 @@ const Overlay = ({
             <div>
               <p>
                 <span> Description: </span>
-                {add3Dots(description, 300)}{" "}
+                {add3Dots(description, 150)}{" "}
               </p>{" "}
             </div>
 
             <div>
               <p>
                 <span> Instruction: </span>
-                {add3Dots(instruction, 300)}
+                {add3Dots(instruction, 150)}
               </p>{" "}
             </div>
 

@@ -36,6 +36,7 @@ const Recipes = () => {
             name={recipe.name}
             image={recipe.image}
             country={recipe.country}
+            id={recipe.id}
             key={recipe.id}
           />
         ))}
