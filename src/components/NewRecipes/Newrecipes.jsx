@@ -110,6 +110,7 @@ const Newrecipes = () => {
         <div>
           <label htmlFor="name"> Name: </label>
           <input
+            placeholder="Recipe name"
             type="text"
             name="name"
             id="name "
@@ -121,6 +122,7 @@ const Newrecipes = () => {
         <div>
           <label htmlFor="author"> Author: </label>
           <input
+            placeholder="Recipe creator's name"
             type="text"
             name="author"
             id="author "
@@ -147,6 +149,7 @@ const Newrecipes = () => {
         <div>
           <label htmlFor="description"> Description: </label>
           <textarea
+            placeholder="write a short description of the recipe "
             required
             name="description"
             id="description "
@@ -157,6 +160,7 @@ const Newrecipes = () => {
         <div>
           <label htmlFor="image"> Image: </label>
           <input
+            placeholder="place the image link..."
             required
             type="text"
             name="image"
@@ -201,6 +205,7 @@ const Newrecipes = () => {
         <div>
           <label htmlFor="instruction"> Instruction: </label>
           <textarea
+            placeholder="How to prepare the recipe...  "
             required
             name="instruction"
             id="instruction "
