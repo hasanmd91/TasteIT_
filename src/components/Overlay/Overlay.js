@@ -16,7 +16,8 @@ const Overlay = ({
   description,
   image,
   instruction,
-  ingredients,
+  post,
+  remove,
 }) => {
   return (
     <div className={style.overlay}>
@@ -55,8 +56,8 @@ const Overlay = ({
 
             <div className={style.btn_wrapper}>
               {" "}
-              <button> Are you sure ?</button>
-              <button> Dont want to post! </button>
+              <button onClick={post}> Are you sure ?</button>
+              <button onClick={remove}> Dont want to post! </button>
             </div>
           </div>
         </div>

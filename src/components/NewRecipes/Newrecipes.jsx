@@ -70,12 +70,32 @@ const Newrecipes = () => {
     setRecipe({ ...recipe, ingredients: ingredientList });
   };
 
+  // post handeler from overlay
+
+  const postHandeler = () => {
+    createRecpie(recipe);
+    setOverlay(false);
+  };
+
+  // remove post from overlay
+  const removePost = () => {
+    setOverlay(false);
+    setRecipe({
+      name: " ",
+      author: " ",
+      country: " ",
+      description: " ",
+      image: " ",
+      instruction: "",
+      ingredients: {},
+    });
+  };
+
   // form submithandeler
 
   const submitHandeler = (e) => {
     e.preventDefault();
     setOverlay(true);
-    createRecpie(recipe);
     e.target.reset();
   };
 
@@ -192,7 +212,9 @@ const Newrecipes = () => {
           Post recipe
         </button>
       </form>
-      {overlay && <Overlay {...recipe} />}
+      {overlay && (
+        <Overlay {...recipe} post={postHandeler} remove={removePost} />
+      )}
     </div>
   );
 };
