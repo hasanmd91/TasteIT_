@@ -1,6 +1,12 @@
 import React from "react";
 import style from "./footer.module.css";
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaGithub,
+  FaYoutube,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,6 +41,10 @@ const Footer = () => {
         >
           {" "}
           <FaGithub className={style.icon} />
+        </a>{" "}
+        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+          {" "}
+          <FaYoutube className={style.icon} />
         </a>{" "}
       </div>
       <p>All rights reserved @Hasan 2022</p>
