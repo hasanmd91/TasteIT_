@@ -44,7 +44,6 @@ video {
   border-image-slice: 1;
   border-width: 3px;
   border-image-source: linear-gradient(to left, #ed2c09, #b6d80a);
-  font-size: 16px;
   transition: all 0.2s ease;
 }
 

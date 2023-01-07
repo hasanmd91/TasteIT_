@@ -21,7 +21,3 @@
   border: 0.5px solid gray;
   box-shadow: rgba(186, 186, 192, 0.2) 0px 7px 29px 0px;
 }
-
-.recipe_conatiner_wrapper input:hover {
-  transform: scaleX(1.06);
-}
