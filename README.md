@@ -3,7 +3,7 @@
 - Users can share pictures and recipes on the app.
 - Recipes from all over the world are categorized appropriately.
 - The users can select the desired recipe from the list in addition users can search and clarify their requirements.
-- The users view the recipe they like and learn what ingredients are needed and how complicated the cooking process is.
+- The users can view the recipe they like and learn what ingredients are needed and how complicated the cooking process is.
 - Recipes are stored in the database.
 
 ## Technologies used
