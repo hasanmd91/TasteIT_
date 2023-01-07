@@ -63,12 +63,12 @@ const Singlerecipes = () => {
             </div>
 
             <div className={style.singlerecipe_content_wrapper_right}>
-              <h2> Recpie creator :{recipe.author}</h2>
+              <h2> Recipe creator :{recipe.author}</h2>
               <h4> Recipe origin : {recipe.country} </h4>
               <h4> Description</h4>
               <p> {recipe.description}</p>
               <div>
-                <h4> Preperation</h4>
+                <h4> Preparation</h4>
                 <p> {recipe.instruction}</p>
               </div>
               <div>
