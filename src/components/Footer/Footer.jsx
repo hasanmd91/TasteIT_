@@ -47,7 +47,7 @@ const Footer = () => {
           <FaYoutube className={style.icon} />
         </a>{" "}
       </div>
-      <p>All rights reserved @Hasan developed in 2022</p>
+      <p>All rights reserved @Hasan developed by @Hasan 2022</p>
     </footer>
   );
 };
