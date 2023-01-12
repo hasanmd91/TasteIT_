@@ -15,7 +15,6 @@ const Recipes = () => {
       const data = await getDocs(recpieCollectionRef);
       setRecipe(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
-
     getRecipes();
   }, []);
 

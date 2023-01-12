@@ -37,9 +37,7 @@ const Newrecipes = () => {
   const getCountries = async () => {
     const result = await axios.get("https://restcountries.com/v3.1/all");
     let countryList = [];
-    result.data.map((country) => {
-      countryList.push(country.name.common);
-    });
+    result.data.map((country) => countryList.push(country.name.common));
     countryList.sort();
     setCountries(countryList);
   };
