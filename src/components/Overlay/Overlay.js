@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import style from "../Overlay/Overlay.module.css";
 
 const add3Dots = (string, limit) => {
@@ -64,6 +65,17 @@ const Overlay = ({
       </div>
     </div>
   );
+};
+
+Overlay.propTypes = {
+  name: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  instruction: PropTypes.string.isRequired,
+  post: PropTypes.func.isRequired,
+  remove: PropTypes.func.isRequired,
 };
 
 export default Overlay;
