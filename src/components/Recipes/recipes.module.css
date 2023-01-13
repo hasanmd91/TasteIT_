@@ -20,5 +20,5 @@
   border-radius: 5px;
   margin: 20px;
   border: 0.5px solid gray;
-  box-shadow: rgba(186, 186, 192, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(186, 186, 192, 0.2) 0 7px 29px 0;
 }
