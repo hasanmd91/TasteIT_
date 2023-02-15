@@ -1,7 +1,7 @@
 import style from "./singlerecipes.module.css";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { db } from "../../database/Firebase_config";
+import { db } from "../../Database/Firebase_config";
 import { collection, getDocs } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "./recipes.module.css";
-import { db } from "../../database/Firebase_config";
+import { db } from "../../Database/Firebase_config";
 import { collection, getDocs } from "firebase/firestore";
 import { Recipecard } from "../Recipecard/Recipecard";
 
