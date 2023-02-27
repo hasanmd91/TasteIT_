@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const Main = () => {
   return (
     <main className={style.main}>
-      <Outlet />
+      <Outlet data-testid="main-outlet" />
     </main>
   );
 };
