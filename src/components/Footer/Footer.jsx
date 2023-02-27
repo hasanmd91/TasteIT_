@@ -10,8 +10,8 @@ import {
 
 const Footer = () => {
   return (
-    <footer>
-      <p> Follow us on -></p>
+    <footer title="footer">
+      <p> Follow us on -{">"}</p>
       <div className={style.footer_container}>
         <a
           href="https://www.facebook.com/profile.php?id=100069593825824"
