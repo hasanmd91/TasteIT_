@@ -4,7 +4,7 @@ import style from "./navbar.module.css";
 
 const navbar = () => {
   return (
-    <div className={style.navbar}>
+    <nav className={style.navbar}>
       <ul>
         <li>
           <NavLink to="/"> Home </NavLink>{" "}
@@ -16,7 +16,7 @@ const navbar = () => {
           <NavLink to="/newrecipes"> Add new recipe </NavLink>{" "}
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
