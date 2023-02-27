@@ -16,7 +16,7 @@ const Recipes = () => {
       setRecipe(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
     getRecipes();
-  }, []);
+  }, [recpieCollectionRef]);
 
   const inputHandeler = (e) => {
     setSearch(e.target.value);
