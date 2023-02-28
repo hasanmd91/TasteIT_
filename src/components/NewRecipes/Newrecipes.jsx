@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { db } from "../../Database/Firebase_config";
+import { db } from "../Database/Firebase_config";
 import { collection, addDoc } from "firebase/firestore";
 import Overlay from "../Overlay/Overlay";
 import style from "./newrecipes.module.css";
