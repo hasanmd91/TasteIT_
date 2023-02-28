@@ -3,7 +3,7 @@ import axios from "axios";
 import { db } from "../../Database/Firebase_config";
 import { collection, addDoc } from "firebase/firestore";
 import Overlay from "../Overlay/Overlay";
-import style from "./Newrecipes.module.css";
+import style from "../NewRecipes/Newrecipes.module.css";
 
 const Newrecipes = () => {
   const [overlay, setOverlay] = useState(false);
