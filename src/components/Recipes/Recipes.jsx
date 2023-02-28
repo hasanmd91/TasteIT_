@@ -2,7 +2,12 @@ import React, { useEffect, useState } from "react";
 import style from "./recipes.module.css";
 import { collection, getDocs } from "firebase/firestore";
 import { Recipecard } from "../Recipecard/Recipecard";
+<<<<<<< HEAD
 import { db } from "../Database/Firebase_config";
+=======
+import { db } from "../../Database/Firebase_config";
+
+>>>>>>> 21b2b015a41c1181c1ce7918816788953b9f2ea5
 const Recipes = () => {
   const [recipes, setRecipe] = useState([]);
   const [search, setSearch] = useState("");
