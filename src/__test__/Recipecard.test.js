@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom/extend-expect"; // import jest-dom
 import { MemoryRouter } from "react-router-dom";
 import { render, screen } from "@testing-library/react";
-import Recipecard from "../components/Recipecard/Recipecard";
+import { Recipecard } from "../components/Recipecard/Recipecard";
 
 test("Recipe card should have recipe details", () => {
   const details = {

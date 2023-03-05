@@ -27,7 +27,7 @@ const Recipes = () => {
   });
 
   return (
-    <div className={style.recipe_conatiner_wrapper}>
+    <div className={style.recipe_conatiner_wrapper} data-testid="test-recipes">
       <input type="text" placeholder="Search recipe" onChange={inputHandeler} />
       <div className={style.recipe_conatiner}>
         {filterData.map((recipe) => (

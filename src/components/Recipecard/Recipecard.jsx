@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./recipecard.module.css";
 
-const Recipecard = ({ name, image, country, id }) => {
+export const Recipecard = ({ name, image, country, id }) => {
   let flag = `https://countryflagsapi.com/svg/${country}`;
   return (
     <div className={style.card_wraper}>
@@ -22,5 +22,3 @@ const Recipecard = ({ name, image, country, id }) => {
     </div>
   );
 };
-
-export default Recipecard;
