@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom/extend-expect";
 import { screen, render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import Header from "../Header";
+import Header from "../components/Header/Header";
 
 test("Header component renders without errors", () => {
   render(

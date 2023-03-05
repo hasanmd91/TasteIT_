@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import style from "./recipecard.module.css";
 
-export const Recipecard = ({ name, image, country, id }) => {
+const Recipecard = ({ name, image, country, id }) => {
   let flag = `https://countryflagsapi.com/svg/${country}`;
   return (
     <div className={style.card_wraper}>
       <div className={style.flag_container}>
-        <img src={flag} alt=" flag" crossOrigin="anonymous" />
+        <img src={flag} alt="flag" crossOrigin="anonymous" />
       </div>
 
       <div className={style.card_image}>
-        <img src={image} alt="pasta" />
+        <img src={image} alt="Recipe" />
       </div>
 
       <div className={style.card_info}>
@@ -22,3 +22,5 @@ export const Recipecard = ({ name, image, country, id }) => {
     </div>
   );
 };
+
+export default Recipecard;

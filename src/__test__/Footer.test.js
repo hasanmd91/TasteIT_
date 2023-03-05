@@ -2,7 +2,7 @@ import "@testing-library/jest-dom/extend-expect";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import Footer from "../Footer";
+import Footer from "../components/Footer/Footer";
 
 test("should footer component renders without errors", () => {
   render(

@@ -2,7 +2,7 @@ import "@testing-library/jest-dom/extend-expect";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import Card from "../Card";
+import Card from "../components/Card/Card";
 
 test("should render same text passed into the title props", () => {
   render(

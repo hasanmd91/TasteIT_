@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, screen } from "@testing-library/react";
-import Home from "./../Home";
+import Home from "../components/Home/Home";
 import { MemoryRouter } from "react-router-dom";
 
 test("renders the main heading", () => {
