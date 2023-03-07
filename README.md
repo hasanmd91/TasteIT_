@@ -1,3 +1,5 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=hasanmd91_Cycling_in_Helsinki)
+
 # TasteIT Recipe App
 
 - Users can share pictures and recipes on this app.
