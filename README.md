@@ -1,4 +1,5 @@
-
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=hasanmd91_TasteIT_) <br>
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=hasanmd91_TasteIT_)](https://sonarcloud.io/summary/new_code?id=hasanmd91_TasteIT_)
 # TasteIT Recipe App
 
 - Users can share pictures and recipes on this app.
