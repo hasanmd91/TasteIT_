@@ -22,7 +22,7 @@ const Singlerecipes = () => {
     };
 
     getRecipes();
-  }, []);
+  });
 
   return (
     <div className={style.singlerecipe_container}>
